@@ -1,0 +1,54 @@
+#my {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#monu {
+    font-size: 50px;
+    text-shadow: -1px -1px 10px rgb(11, 55, 234);
+}
+
+p {
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+#kartik {
+    font-style: italic;
+    font-variant: small-caps;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-indent: 100px;
+}
+
+em {
+    font-style: normal;
+}
+
+#jynt {
+    text-align: center;
+    border: 1px solid red;
+}
+
+#rishab {
+    text-align: center;
+    /* border: 1px solid red; */
+    /* text-decoration: underline dashed 2px;
+    text-decoration: line-through;
+    text-decoration: overline; */
+    /* text-decoration: underline wavy; */
+
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+
+}
+
+#color {
+    color: #1aa211;
+    color: rgb(255, 0, 0);
+    color: rgb(47, 186, 9, 0.5);
+    color: hsl(360, 100%, 50%);
+    color: hsla(360, 100%, 50%, .5);
+}

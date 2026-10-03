@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Novell Services Login</h1>
+    <div>
+        <form action="">
+            <label for="username">USERNAME:</label>
+            <input type="text" id="username">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+            <br><br>
+            <label for="city">City of Employment:</label>
+            <input type="text" id="city">
+            <br><br>
+            <label for="server">Web Server:</label>
+            <select name="server" id="server">
+                <option value="--choose a server--"> --choose a server--</option>
+                <option value="server 1">server 1</option>
+                <option value="server 2">server 2</option>
+                <option value="server 3">server 3</option>
+
+            </select>
+            <br><br>
+            <table>
+                <tr>
+                    <td>please specify your role:</td>
+                    <td>
+
+                        <input type="radio" name="Please specify your role" id="mo">
+                        <label for="mo">Admin</label><br>
+
+                        <input type="radio" id="lr" name="Please specify your role">
+                        <label for="lr">Engineer</label><br>
+
+                        <input type="radio" id="sp" name="Please specify your role">
+                        <label for="sp">Manager</label><br>
+
+                        <input type="radio" id="re" name="Please specify your role">
+                        <label for="re">Guest</label><br>
+                    </td>
+                </tr>
+            </table>
+            <br><br>
+            <table>
+                <tr>
+                    <td>single sign on to the following:</td>
+                    <td>
+                        <input type="radio" id="ls" name="single sign on to the following">
+                        <label for="ls">Mail</label><br>
+                        <input type="radio" id="qs" name="single sign on to the following">
+                        <label for="qs">Payroll</label><br>
+                        <input type="radio" id="rt" name="single sign on to the following">
+                        <label for="rt">Self-service</label><br>
+                    </td>
+                </tr>
+
+            </table>
+            <br><br>
+            <button type="submit">Login</button>
+            <button type="reset">Reset</button>
+
+
+        </form>
+    </div>
+</body>
+
+</html>

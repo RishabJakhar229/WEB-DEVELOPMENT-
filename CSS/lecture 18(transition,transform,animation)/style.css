@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.box {
+    width: 300px;
+    height: 130px;
+    background-color: aqua;
+    /* transition-property: all; */
+    transition-duration: 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    /* transition-delay: 2s; */
+    /* transition: all 5s linear 1s; */
+    /* transform: translateX(100px);
+    transform: translateY(100px); */
+
+    /* transform: translate(100px, 100px); */
+    /* transform: scaleX(2); */
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    /* animation-name: monu; */
+    animation-name: jai;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: absolute;
+    /* animation-fill-mode: backwards ; */
+}
+
+@keyframes monu {
+    from {
+background-color: red;
+
+    }
+
+    to {
+background-color: green;
+transform: translate(30px ,50px);
+
+    }
+
+}
+
+@keyframes jai {
+
+    0% {
+background-color: red;
+left: 0%;
+    }
+
+    25% {
+background-color: purple;
+/* width: 1000px; */
+    }
+75%{
+    background-color: yellow;
+    /* width: 500px; */
+}
+
+    100% {
+        /* width: 700px; */
+background-color: green;
+/* transform: translate(30px ,50px); */
+left: 100%;
+    }
+
+}
+
+.container:hover>div {
+     background-color: blue;
+    /* width: 1300px;  */
+    /* transform: translate(300px, 300px) scale(2); */
+    /* transform:scaleX(2); */
+}
+
+/* .linear {
+    transition-timing-function: linear;
+    background-color: aquamarine;
+
+}
+
+.ease {
+    transition-timing-function: ease;
+    background-color: aqua;
+}
+
+.ease-in {
+    transition-timing-function: ease-in;
+    background-color: antiquewhite;
+}
+
+.ease-out {
+    transition-timing-function: ease-out;
+    background-color: blue;
+}
+
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+    background-color: rgb(58, 239, 179);
+} */
+
+.btn {
+    background-color: rgb(250, 14, 14);
+    padding: 20px 30px;
+    border-radius: 30px;
+    border: none;
+    margin: 40px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+animation: moti 2s linear 0s infinite ;
+}
+@keyframes moti{
+from{
+/* transform: rotate(0deg); */
+}
+
+to{
+  /* transform: translate(0, -5px) scale(1.1) rotate(3deg);  */
+  transform: rotate(360deg); 
+}
+}
+
+.btn:hover {
+     transform: translate(0, -5px) scale(1.1) rotate(3deg) skew(30deg);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.416); 
+}

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 20px;
+}
+
+#wrapper {
+    /* width: 500px; */
+    /* height: 500px; */
+    width: 100vw;
+    height: 100vh;
+    /* background-color: aqua; */
+    font-size: 20px;
+}
+
+span {
+    display: inline-block;
+    /* width: 250px;
+height: 250px; */
+    /* width: 50%;
+    height: 50%; 
+background-color: blue; */
+}
+
+section {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 5rem;
+}
+
+h1 {
+    font-size: 40px;
+}
